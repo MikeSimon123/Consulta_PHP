@@ -1,0 +1,58 @@
+* {
+    font-family: "sans-serif";
+}
+body {
+    background-color: rgb(187, 171, 155);
+}
+
+#cadastrar-produto, #cadastrar-cliente {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+#cadastrar-produto img, #cadastrar-cliente img{
+    width: 300px;
+}
+
+.add {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    bottom: -50px;
+    right: 80px;
+    background-color: white;
+    border-radius: 200px;
+}
+
+#botoes {
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+    transform: scale(1.4);
+    margin: 20vh auto;
+}
+#botoes a {
+    color: black;
+    text-decoration: none;
+}
+#perfil {
+    border-radius: 200px;
+    border: 2px solid black;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    margin-top: 50px;
+    font-size: 3.5rem;
+}
+.botao {
+    transition: all 400ms;
+}
+.botao:hover{
+    transform: scale(1.1);
+    filter: brightness(0.6);
+    transition: all 400ms;
+}

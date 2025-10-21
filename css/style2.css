@@ -1,0 +1,162 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8rem;
+}
+h2 {
+    text-align: center;
+}
+#formulario-prod, #formulario-cliente{
+    display: grid;
+    width: 750px;
+    align-items: center;
+    gap: 18px;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+#formulario {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+#formulario-prod input[type='text'], #formulario-cliente input[type='text']{
+    height: 25px;
+}
+#formulario-prod input[type='submit'], #formulario-cliente input[type='submit']{
+    width: 100px;
+    height: 28px;
+}
+#formulario button{
+    width: 200px;
+    margin: 20px auto;
+}
+
+#cadastro-prod , #cadastro-cliente{
+    display: grid;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    grid-template-columns: 200px 1fr;
+}
+#cadastro-prod input[type='text'], #cadastro-cliente input[type='text']{
+    width: 200px;
+    height: 25px;
+    margin: 0 auto;
+}
+input[type='submit'], input[type='reset'], button {
+    transition: all 400ms;
+    cursor: pointer;
+}
+input[type='submit']:hover, input[type='reset']:hover,button:hover {
+    transform: scale(1.1);
+    transition: all 400ms;
+}
+#cadastro-prod input[type='submit'], #cadastro-prod input[type='reset'], #cadastro-cliente input[type='submit'], #cadastro-cliente input[type='reset']{
+    width: 100px;
+    margin: 0 auto;
+}
+
+#cadastrar-produto , #cadastrar-cliente{
+    background-color: white;
+    margin: 10px auto;
+    padding: 5px 30px 10px 30px;
+    border: 3px solid black;
+    width: 400px;
+    height: 350px;
+}
+#pesquisar-produto, #pesquisar-cliente{
+    background-color: white;
+    width: 750px;
+    margin: 10px auto;
+    border: 3px solid black;
+}
+#formulario {
+    margin: 10px auto;
+    width: 630px;
+}
+body {
+    background-color: rgb(186, 171, 156);
+}
+
+#voltar {
+    margin: 10px auto;
+    display: flex;
+    width: 200px;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    border: 2px solid black;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 2px;
+    font-family: sans-serif;
+}
+
+.listagemCliente {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 30px);
+    gap: 2px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+}
+
+.listagemProduto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 30px);
+    gap: 2px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: white;
+    color: black;
+}
+
+#nenhumCadastro {
+    margin: 30px auto;
+    width: max-content;
+    background-color: white;
+    color: black;
+    font-size: 1.6rem;
+    padding: 10px;
+    font-family: sans-serif;
+    border: 2px solid black;
+}
+
+#Resconsulta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 450px;
+    grid-template-rows: repeat(4, 35px);
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0px 20px 0px 20px;
+}
+
+#consulta {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    border: 2px solid black;
+    width: max-content;
+}
+
+#consulta button {
+    width: 250px;
+    margin: 10px auto;
+}
