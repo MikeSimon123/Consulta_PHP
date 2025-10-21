@@ -39,7 +39,7 @@ CREATE TABLE `tbcliente` (
 
 LOCK TABLES `tbcliente` WRITE;
 /*!40000 ALTER TABLE `tbcliente` DISABLE KEYS */;
-INSERT INTO `tbcliente` VALUES (1,'Marlon Ribeiro dos Santos',16,'marlon.ribeiro@gmail.com','Guarulhos'),(2,'Felipe Ortega da Silva',18,'felipe.ortega@gmail.com','Guarulhos');
+INSERT INTO `tbcliente` VALUES (1,'Marlon Ribeiro dos Santos',16,'marlon.uzumaki.ribeiro@gmail.com','Guarulhos'),(2,'Felipe Ortega da Silva',18,'felipe.ortega@gmail.com','Guarulhos');
 /*!40000 ALTER TABLE `tbcliente` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -80,4 +80,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2025-10-06 19:28:53
+-- Dump completed on 2025-10-21 14:55:11

@@ -16,7 +16,7 @@
         $coluna = mysqli_fetch_array($executa);
     ?>
     <h1>Resultado da pesquisa</h1>
-    
+    <button id="voltar" onclick="window.location = 'cadcliente.php'">Voltar</button>
     <div id="consulta">
         <div id="Resconsulta">
             <p>Nome:</p>
@@ -28,7 +28,8 @@
             <p>Cidade:</p>
             <?php echo "<p>" . $coluna["cidade"] . "</p>";?>
         </div>
-        <button onclick="window.location = `excluircliente.php?id=<?php echo $coluna['codcliente']?>`">Excluir</button>
+        <button onclick="window.location = `excluircliente.php?id=<?php echo $coluna['codcliente'];?>`">Excluir</button>
+        <button onclick="window.location = `edicaocliente.php?id=<?php echo $coluna['codcliente'];?>`">Modo Edição</button>
     </div>
     
     
