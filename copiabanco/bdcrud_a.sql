@@ -39,7 +39,7 @@ CREATE TABLE `tbcliente` (
 
 LOCK TABLES `tbcliente` WRITE;
 /*!40000 ALTER TABLE `tbcliente` DISABLE KEYS */;
-INSERT INTO `tbcliente` VALUES (1,'Marlon Ribeiro',16,'marlon.ribeiro@gmail.com','Guarulhos'),(2,'Felipe da Silva',18,'felipea@gmail.com','Guarulhos');
+INSERT INTO `tbcliente` VALUES (1,'fwefw Ribeiro',16,'sref.ribeiro@gmail.com','Guarulhos'),(2,'fwf da Silva',18,'fwfds@gmail.com','Guarulhos');
 /*!40000 ALTER TABLE `tbcliente` ENABLE KEYS */;
 UNLOCK TABLES;
 
